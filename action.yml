@@ -1,0 +1,25 @@
+name: typical-python-workflow
+description: |
+  Does the usual worflow for python packages assumming a certain structure of the repo.
+author: KOLANICH
+
+inputs:
+  use_pytest:
+    description: 'Whether to use pytest.'
+    required: false
+    default: true
+  should_isolate_testing:
+    description: 'Whether to isolate testing.'
+    default: true
+  github_token:
+    description: 'Token to report coverage'
+    required: false
+    default: ""
+
+runs:
+  using: "node16"
+  main: "startBash.js" # ECMA modules are not yet supported by GH Actions
+
+branding:
+  icon: tick
+  color: green

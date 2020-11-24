@@ -1,0 +1,5 @@
+https://github.com/RonnyPfannschmidt/iniconfig.git
+https://github.com/pypa/packaging.git
+https://github.com/python-attrs/attrs.git
+https://github.com/pytest-dev/py.git
+https://github.com/pytest-dev/pluggy.git

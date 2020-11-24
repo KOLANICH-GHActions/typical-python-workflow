@@ -1,0 +1,4 @@
+https://github.com/nedbat/coveragepy.git
+https://github.com/Ousret/charset_normalizer.git
+https://github.com/psf/requests.git
+https://github.com/KOLANICH-libs/miniGHAPI.py.git
